@@ -29,5 +29,6 @@ jobs:
       run: go test -v ./...
 
     - name: Acceptance tests
-      run: ./acceptance-tests/tests.sh 
+      run: chmod +x ./acceptance-tests/tests.sh
+      run: ./acceptance-tests/tests.sh
 
