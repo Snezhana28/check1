@@ -10,14 +10,14 @@ import (
 )
 
 type Options struct {
-	c      bool
-	d      bool
-	u      bool
-	i      bool
-	f      int
-	s      string
-	input  bool
-	output bool
+	c     bool
+	d     bool
+	u     bool
+	i     bool
+	f     int
+	s     string
+	input bool
+	//output bool
 }
 
 func Run() {
